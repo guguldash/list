@@ -1,11 +1,9 @@
 num= [50, 40, 23, 70, 56, 12, 5, 10, 7]
-i=0
 max=0
-while i<len(num):
-    if num[i]>max:
+for item in num:
+    if item > max:
         max=max+1
-        max=num[i]
-    i=i+1
+        max = item
 print(max) 
 #mq2.       
     
