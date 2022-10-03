@@ -12,14 +12,14 @@ i=0
 while i<len(elements):
     c=c+1
     sum=sum+elements[i]
-if elements[i]%2==0 :
+if elements[i]%2==0:
     c=c+1
-    sum=sum+elements[i] 
+    sum=sum+elements[i]
 else:
-    c2=c2+1
-    sum2=sum2+elements[i] 
-i=i+1
-print("total count",c) 
+    c2 += 1
+    sum2 += elements[i]
+i += 1
+print("total count",c)
 print("even number",c1)
 print ("odd number",c2)
 print("total sum",sum)

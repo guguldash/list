@@ -1,15 +1,11 @@
 marks=[[78, 76, 94, 86, 88],[91, 71, 98, 65, 76],[95, 45, 78, 52, 49]]
-i=0
-while i<len(marks):
+for mark in marks:
     count=0
     sum=0
-    j=0
-    while j<len(marks[i]):
+    for j in range(len(mark)):
         count=count+1
-        sum=sum+marks[i][j]
-        j=j+1
-    print(sum/count)
-    i=i+1    
+        sum = sum + mark[j]
+    print(sum/count)    
     #avg
 
 

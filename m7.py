@@ -8,8 +8,7 @@ c2=0
 c3=0
 d1=0
 d2=0
-i=0
-while i<len(a):
+for i in range(len(a)):
     r1=r1+a[0][i]
     r2=r2+a[1][i]
     r3=r3+a[2][i]
@@ -18,7 +17,6 @@ while i<len(a):
     c3=c3+a[i][2]
     d1=d1+a[i][0]
     d2=d2+a[i][1]
-    i+=1
 #print(r1)
 #print(r2)
 print(r3)
